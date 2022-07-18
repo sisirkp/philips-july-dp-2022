@@ -2,6 +2,7 @@
 Design patterns training assignments
 
 Assignment - 1
+``` c++
 //C++ Code
 bool batteryIsOk(float temperature, float soc, float chargeRate) {
   if(temperature < 0 || temperature > 45) {
@@ -16,6 +17,8 @@ bool batteryIsOk(float temperature, float soc, float chargeRate) {
   }
   return true;
 }
+
+```
 
 Findings:
 The code is violating Single Responsibility Principle on the following points:
