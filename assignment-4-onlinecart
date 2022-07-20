@@ -6,3 +6,4 @@ Smells:
 Refactoring Proposal:
 1. Remove Payment details to separate class
 2. Use Stratergy pattern to decide payment methods
+
