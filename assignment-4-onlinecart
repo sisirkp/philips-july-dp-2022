@@ -1,0 +1,8 @@
+Smells:
+1. OnlineCart is a God Class. It has knowledge of all types of payment processings
+2. THe name OnlineCart suggests it will have item details as well and item related functionality e.g. add,remove etc. Including that it has payment knowledge so violtes SRP
+
+
+Refactoring Proposal:
+1. Remove Payment details to separate class
+2. Use Stratergy pattern to decide payment methods
